@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Nanum+Myeongjo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url("../IMG/index_bg.jpg"); */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FDE1ED;
+    /* font-family: "Grape Nuts", cursive; */
+    font-family: "Nanum Myeongjo", serif;
+
+}
+
+.img img{
+    position: relative;
+    width: 450px;
+    left: 8.5%;
+    top: 30px;
+    opacity: 0;
+    top: -200px;
+}
+.title{
+    position: fixed;
+    position: absolute;
+    top: 276px;
+    left: 43%;
+    line-height: .5;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -6px;
+    opacity: 0;
+    top: 20px;
+}
+.title p{
+    font-size: 25px;
+    font-weight: 300;
+    color: grey;
+    text-transform: uppercase;
+    left: 150px;
+    letter-spacing: 10px;
+    padding: 22px 5px;
+    /* opacity: 0; */
+    top: 20px;
+}
+.btn {
+    position: relative;
+    /* position: absolute; */
+    text-decoration: none;
+    bottom: 20px;
+    right: -60%;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 30px;
+    background: #df659e;
+    color: #fff;
+    /* margin: 50px 50px; */
+    padding: 20px 80px;
+    border-radius: 50px;
+    transition: .4s;
+    opacity: 0;
+    top: -540px;
+
+}
+.btn :hover{
+    background: #f181b2;
+    color: #e63ba4;
+}
